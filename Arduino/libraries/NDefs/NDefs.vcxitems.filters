@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;s</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx</Extensions>
+    </Filter>
+    <Filter Include="Library metadata">
+      <UniqueIdentifier>{e67bd5d6-a86e-468a-8be6-c25c39e1949e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Examples">
+      <UniqueIdentifier>{452fc3dc-5303-4b14-9391-56827ddf1a4e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="$(MSBuildThisFileDirectory)src\NDefs.h">
+      <Filter>Header Files</Filter>
+    </Text>
+    <Text Include="$(MSBuildThisFileDirectory)library.properties">
+      <Filter>Library metadata</Filter>
+    </Text>
+    <Text Include="$(MSBuildThisFileDirectory)keywords.txt">
+      <Filter>Library metadata</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)README.md">
+      <Filter>Library metadata</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)examples\isBetween\isBetween.ino">
+      <Filter>Examples</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)examples\printVersion\printVersion.ino">
+      <Filter>Examples</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)examples\reinterpret_c_style\reinterpret_c_style.ino">
+      <Filter>Examples</Filter>
+    </None>
+  </ItemGroup>
+</Project>

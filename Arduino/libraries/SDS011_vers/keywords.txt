@@ -1,0 +1,33 @@
+﻿// keywords.txt
+
+SDS011_vers	KEYWORD1
+//begin	KEYWORD2
+
+//2----------------------
+SetDataReportingMode KEYWORD2
+SetQueryReporting KEYWORD2
+SetActiveReportingMode KEYWORD2
+
+//4----------------------
+QueryDataCommand KEYWORD2
+read_q KEYWORD2
+read_a KEYWORD2
+
+//5---------------------
+SetDeviceID KEYWORD2
+
+//6---------------------
+SetSleepAndWork KEYWORD2
+SetSleep KEYWORD2
+SetWork KEYWORD2
+wakeup KEYWORD2
+sleep KEYWORD2
+
+//7-----------------
+CheckFirmwareVersion KEYWORD2
+
+//8-----------------
+SetWorkingPeriod KEYWORD2
+SetContinuousMode KEYWWORD2
+SetWorkingPeriod3Min KEYWORD2
+

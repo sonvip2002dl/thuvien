@@ -1,0 +1,73 @@
+# -----------------------------------------
+# Syntax colouring for ER_OLEDM1_CH1115 library
+# -----------------------------------------
+
+# Datatypes (such as objects)
+ERMCH1115	KEYWORD1
+MultiBuffer	KEYWORD1
+ActiveBuffer	KEYWORD1
+
+#Methods / functions
+
+drawPixel	KEYWORD2
+OLEDupdate	KEYWORD2
+OLEDclearBuffer	KEYWORD2
+OLEDBuffer	KEYWORD2
+OLEDNoBufferGotoXY	KEYWORD2
+OLEDNoBufferChar	KEYWORD2
+OLEDNoBufferString	KEYWORD2
+OLEDbegin	KEYWORD2
+OLEDinit	KEYWORD2
+OLEDReset	KEYWORD2
+OLEDFillScreen	KEYWORD2
+OLEDFillPage	KEYWORD2
+OLEDBitmap	KEYWORD2
+OLEDEnable	KEYWORD2
+OLEDInvert	KEYWORD2
+OLEDFlip	KEYWORD2
+OLEDContrast	KEYWORD2
+OLEDscroll	KEYWORD2
+OLEDscrollSetup	KEYWORD2
+OLEDfadeEffect	KEYWORD2
+OLEDIssleeping	KEYWORD2
+OLEDPowerDown	KEYWORD2
+OLEDinitBufferStruct	KEYWORD2
+
+drawLine	KEYWORD2
+drawFastVLine	KEYWORD2
+drawFastHLine	KEYWORD2
+drawRect	KEYWORD2
+fillRect	KEYWORD2
+drawCircle	KEYWORD2
+drawCircleHelper	KEYWORD2
+fillCircle	KEYWORD2
+fillCircleHelperKEYWORD2
+drawTriangle	KEYWORD2
+fillTriangle	KEYWORD2
+drawRoundRect	KEYWORD2
+fillRoundRect	KEYWORD2
+drawChar	KEYWORD2
+drawText	KEYWORD2
+setCursor	KEYWORD2
+setTextColor	KEYWORD2
+setTextColor	KEYWORD2
+setTextSize	KEYWORD2
+setTextWrap	KEYWORD2
+setFontNum	KEYWORD2
+drawCharNum	KEYWORD2
+drawTextNum	KEYWORD2
+setDrawBitmapAddr	KEYWORD2
+drawBitmap	KEYWORD2
+
+# Constants
+
+FOREGROUND	LITERAL1
+BACKGROUND	LITERAL1
+OLEDFontType_Default	LITERAL1
+OLEDFontType_Thick	LITERAL1
+OLEDFontType_SevenSeg	LITERAL1
+OLEDFontType_Wide	LITERAL1
+OLEDFontType_Tiny	LITERAL1
+OLEDFontType_Homespun	LITERAL1
+OLEDFontType_Bignum	LITERAL1
+OLEDFontType_Mednum	LITERAL1

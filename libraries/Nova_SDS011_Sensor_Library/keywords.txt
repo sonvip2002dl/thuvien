@@ -1,0 +1,29 @@
+#######################################
+# Syntax Coloring Map For Nova_SDS011
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+NovaSDS011	KEYWORD1
+DataReportingMode	KEYWORD1
+QuerryErro	KEYWORD1
+WorkingMode	KEYWORD1
+SDS011Version	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin   KEYWORD2
+setDataReportingMode	KEYWORD2
+getDataReportingMode	KEYWORD2
+queryData	KEYWORD2
+setDeviceID	KEYWORD2
+setWorkingMode	KEYWORD2
+getWorkingMode	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################

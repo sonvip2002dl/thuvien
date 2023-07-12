@@ -1,0 +1,58 @@
+#######################################
+# Syntax Coloring Map For Sensirion
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+UserInit	KEYWORD1
+OnWebFormRecieved	KEYWORD1
+UserEverySecond	KEYWORD1
+UserEveryMinute	KEYWORD1
+UserEverySecond	KEYWORD1
+UserEveryLoop	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+U_InitPin	KEYWORD2
+U_InitPin_Sense	KEYWORD2
+U_name	KEYWORD2
+U_vender	KEYWORD2
+U_uecsid	KEYWORD2
+U_footnote	KEYWORD2
+U_nodename	KEYWORD2
+U_orgAttribute	KEYWORD2
+U_HtmlLine	KEYWORD2
+UECSUserHtml	KEYWORD2
+U_html	KEYWORD2
+U_ccmList	KEYWORD2
+U_MAX_CCM	KEYWORD2
+
+UECSOriginalAttribute	KEYWORD2
+U_orgAttribute	KEYWORD2
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+NONE	LITERAL1
+A_1S_0	LITERAL1
+A_1S_1	LITERAL1
+A_10S_0	LITERAL1
+A_10S_1	LITERAL1
+A_1M_0	LITERAL1
+A_1M_1	LITERAL1
+S_1S_0	LITERAL1
+S_1M_0	LITERAL1
+B_0	LITERAL1
+B_1	LITERAL1
+UECSSHOWDATA	LITERAL1
+UECSINPUTDATA	LITERAL1
+UECSSELECTDATA	LITERAL1
+UECSSHOWSTRING	LITERAL1
+CHOICES	LITERAL1
+Uardecs.h LITERAL1
+Uardecs_mega.h LITERAL1
